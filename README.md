@@ -22,6 +22,8 @@ This project visualizes your ChatGPT chat history in 3D using Plotly and embeddi
 
 -Also, due to resource constraint of some devices the data has been restricted to only 1000 messages. This avoids freezing or crashing on lower-end devices during UMAP + Plotly rendering.
 
+You can change this by changing or removing this `data = data[:1000]` line in the `visualize_embeddings_3d.py`.
+
 ## Requirements
 
 - Python
