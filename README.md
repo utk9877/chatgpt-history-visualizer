@@ -17,8 +17,10 @@ This project visualizes your ChatGPT chat history in 3D using Plotly and embeddi
 
 ## NOTE
 
-This project requires a conversations.json file (not included for privacy).
-To use it, copy conversations_template.json to conversations.json and add your own data.
+-This project requires a conversations.json file (not included for privacy).
+-To use it, copy conversations_template.json to conversations.json and add your own data.
+
+-Also, due to resource constraint of some devices the data has been restricted to only 1000 messages. This avoids freezing or crashing on lower-end devices during UMAP + Plotly rendering.
 
 ## Requirements
 
