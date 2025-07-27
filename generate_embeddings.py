@@ -27,4 +27,4 @@ for msg in tqdm(filtered_messages):
 with open("embeddings.json", "w", encoding="utf-8") as f:
     json.dump(embeddings, f)
 
-print(f"\n✅ Saved {len(embeddings)} embeddings to embeddings.json")
+print(f"\nSaved {len(embeddings)} embeddings to embeddings.json")
