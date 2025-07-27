@@ -31,7 +31,6 @@ fig = px.scatter_3d(
 fig.update_traces(marker=dict(size=3, color='royalblue'))
 fig.update_layout(title="3D Visualization of Chat Embeddings")
 
-# ✅ Display in browser
 fig.show()
 
 # Save the figure as an HTML file
