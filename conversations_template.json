@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Example Conversation",
+    "messages": [
+      {"role": "user", "content": "Hello!"},
+      {"role": "assistant", "content": "Hi there!"}
+    ]
+  }
+]
